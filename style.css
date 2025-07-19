@@ -63,3 +63,15 @@ button{
     text-decoration:underline; 
 
 }
+
+.colors {
+    width: 100px;
+    height:100px;
+    text-align: center; 
+    background-color:#7dcfff;
+    border-radius: 10px
+}
+
+.colortext {
+    padding-top:5px;
+}
