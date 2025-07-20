@@ -253,14 +253,19 @@ button{
     
 }
 
-.colortext {
+.colortext p {
     background-color: #414868;
     color:#9aa5ce;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
-    
+    position: absolute;
+    bottom:10px; 
+    margin:auto;
+    width: 100px;
+    height: 20px;
 }
 
 .colors div {
-    
+    position: relative;
+
 }
