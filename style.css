@@ -63,9 +63,9 @@ body {
 button {
     border-radius: 10px;
     padding: 10px;
-    font-size: 35px;
-    margin-left:0.7rem;
-    
+    font-size: 30px;
+    margin-left: 0.7rem;
+
 }
 
 .buttons {
@@ -74,9 +74,9 @@ button {
 
 .buttons a {
     text-decoration: none;
-    color:#1a1b26;
+    color: #1a1b26;
     font-weight: bold;
-    
+
 }
 
 .infolink {
@@ -339,7 +339,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-bottom:auto;
+    margin-bottom: auto;
 
 
 }
@@ -353,7 +353,7 @@ button {
     min-width: 800px;
     margin-top: 100px;
     margin-left: 50px;
-    
+
 
 
 }
@@ -369,42 +369,44 @@ button {
     background-color: greens;
     flex-direction: row;
     display: flex;
-
-
-
-
 }
 
 .color-row3 {
     background-color: oranges;
     flex-direction: row;
     display: flex;
-
 }
 
 footer {
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    background-color: green;
+    background-color: greens;
     width: 100%;
     padding-left: 5%;
 }
 
-footer hr {
-    width:100%;
-    color: #565f89;
-}
 
 ul {
     list-style: none;
-    color:#414868;
-    
+    color: #565f89;
+    padding: 0;
 }
 
 .menu-h2 {
-    text-align: center;
+    color: #9aa5Ce;
+    text-align: center; 
+    font-size: 20px;
+    font-weight: normal;
 }
 
+.link-list {
+    margin-left: 1%;
+    margin-right: 20px;
+}
 
+.link-list a {
+    color: #565f89;
+    text-decoration: none;
+}
