@@ -1,5 +1,7 @@
 .container {
     max-width: 1920px;
+    display: grid;
+    grid-template-columns: 100px 
 }
 
 
@@ -8,11 +10,13 @@ h1{
     font-weight: bolder;
     font-size:70px;
     font-family:Roboto Serif;
-    padding-left:6rem;
+    margin-left:6rem;
+    
 }
 .header {
     padding-top:2em; 
-    width:650px; 
+    width:650px;
+    
 }
 .info {
     color:#7aa2f7;
@@ -22,6 +26,7 @@ h1{
     padding-left:1rem;
     margin-left:6rem;
     border-left: 5px #f7768e solid;
+    
 
 }
 body {
