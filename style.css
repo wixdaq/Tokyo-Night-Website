@@ -65,6 +65,7 @@ button{
 }
 
 
+
 #f7768e {
     background-color:#f7768e;
     width: 100px;
@@ -178,6 +179,7 @@ button{
     width: 100px;
     height:100px;
     margin-bottom: 10px;
+    margin-top: 20px;
     text-align: center; 
     border-radius: 10px;
 }
@@ -225,6 +227,7 @@ button{
     margin-bottom: 10px;
     text-align: center; 
     border-radius: 10px;
+    
 }
 
 #color24283b {
@@ -234,15 +237,30 @@ button{
     margin-bottom: 10px;
     text-align: center; 
     border-radius: 10px;
+    
+    
+    
 }
 
 #color1a1b26 {
     background-color: #1a1b26;
     width: 100px;
     height:100px;
-    margin-bottom: 10px;
+    margin-bottom:10px;
     text-align: center; 
-    border-radius: 10px;
+    border-radius:10px;
+    
+    
 }
 
+.colortext {
+    background-color: #414868;
+    color:#9aa5ce;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
     
+}
+
+.colors div {
+    
+}
