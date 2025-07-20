@@ -381,3 +381,30 @@ button {
     display: flex;
 
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+    width: 100%;
+    padding-left: 5%;
+}
+
+footer hr {
+    width:100%;
+    color: #565f89;
+}
+
+ul {
+    list-style: none;
+    color:#414868;
+    
+}
+
+.menu-h2 {
+    text-align: center;
+}
+
+
