@@ -10,7 +10,7 @@
 
 .content {
     flex-direction: row;
-
+    
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
     padding-left: 1rem;
     margin-left: 6rem;
     border-left: 5px #f7768e solid;
-
+    
 
 }
 
@@ -65,6 +65,7 @@ button {
     padding: 10px;
     font-size: 30px;
     margin-left: 0.7rem;
+    border:none;
 
 }
 
@@ -94,7 +95,7 @@ button {
 
 .f7768e {
     background-color: #f7768e;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -105,7 +106,7 @@ button {
 
 .ff9e64 {
     background-color: #ff9e64;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -116,7 +117,7 @@ button {
 
 .e0af68 {
     background-color: #e0af68;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -127,7 +128,7 @@ button {
 
 .cfc9c2 {
     background-color: #cfc9c2;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -138,7 +139,7 @@ button {
 
 .color9ece6a {
     background-color: #9ece6a;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -149,7 +150,7 @@ button {
 
 .color73daca {
     background-color: #73daca;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -160,7 +161,7 @@ button {
 
 .b4f686 {
     background-color: #b4f6f8;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -171,7 +172,7 @@ button {
 
 .color2ac3de {
     background-color: #2ac3de;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -182,7 +183,7 @@ button {
 
 .b4f9f8 {
     background-color: #b4f9f8;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -193,7 +194,7 @@ button {
 
 .color2ac3de {
     background-color: #2ac3de;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -204,7 +205,7 @@ button {
 
 .color7dcfff {
     background-color: #7dcfff;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -215,7 +216,7 @@ button {
 
 .color7aa2f7 {
     background-color: #2aa2f7;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -226,7 +227,7 @@ button {
 
 .bb9af7 {
     background-color: #bb9af7;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -238,7 +239,7 @@ button {
 
 .color1a1b26 {
     background-color: #1a1b26;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     border-radius: 10px;
@@ -250,7 +251,7 @@ button {
 
 .c0caf5 {
     background-color: #c0caf5;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -261,7 +262,7 @@ button {
 
 .a9b1d6 {
     background-color: #a9b1d6;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -272,7 +273,7 @@ button {
 
 .color9aa5ce {
     background-color: #9aa5ce;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -283,7 +284,7 @@ button {
 
 .color565f89 {
     background-color: #565f89;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -294,7 +295,7 @@ button {
 
 .color414868 {
     background-color: #414868;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -306,7 +307,7 @@ button {
 
 .color24283b {
     background-color: #24283b;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -318,7 +319,7 @@ button {
 
 .color1a1b26 {
     background-color: #1a1b26;
-    border: 1px solid #9aa5ce;
+    border: 2px solid #9aa5ce;
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -347,10 +348,7 @@ button {
 
 
 .color-content {
-    min-width: 800;
     display: flex;
-    min-height: 400px;
-    min-width: 800px;
     margin-top: 100px;
     margin-left: 50px;
 
@@ -380,7 +378,7 @@ button {
 footer {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: greens;
     width: 100%;
@@ -410,3 +408,8 @@ ul {
     color: #565f89;
     text-decoration: none;
 }
+
+.link-list a:hover {
+    text-decoration: underline;
+}
+
