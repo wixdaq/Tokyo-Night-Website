@@ -1,6 +1,6 @@
 
 body {
-    background-color: #24283b;
+    background-color: #1a1b26;
 }
 
 img {
@@ -10,36 +10,65 @@ img {
 button a {
     display: flex;
     width: 100%;
+    background-color: #1a1b26;
     height: 30px;
-    background-color: #414868;
     justify-content: center;
     align-items:center;
     margin-bottom:auto;
-    margin-top: 10px;
+    margin-top: 7px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom: 2px solid#c0caf5;
+    text-decoration: none;
+    color:#f7768e;
+    font-size: 1rem;
 }
 button {
     width: 200px;
     height: 150px;
-    margin: 5px;
+    
     border: 2px #c0caf5 solid;
     background-color:#24283b;
     border-radius: 10px;
     padding:0;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.5;
 }
 
 .flexports {
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    justify-content:flex-start;
+    justify-content:center;
+    margin-left: 5%;
+    margin-right: 5%;
+
 
 }
 
 .porticon {
     padding: 15px;
     filter: brightness(0) saturate(100%) invert(68%) sepia(95%) saturate(493%) hue-rotate(175deg) brightness(102%) contrast(102%);
+}
+
+.themename {
+    color:#9ece6a;
+    text-align: center;
+    padding:0.5%;
+    font-size: 40px;
+}
+
+.header {
+    color:#f7768e;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
 }
 
