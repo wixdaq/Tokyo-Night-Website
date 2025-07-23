@@ -17,7 +17,7 @@ h1 {
     color: #f7768e;
     font-weight: bolder;
     font-size: 70px;
-    font-family: Roboto Serif;
+    font-family: Roboto Slab;
     margin-left: 6rem;
 
 }
@@ -30,8 +30,8 @@ h1 {
 
 .info {
     color: #7aa2f7;
-    font-size: 1.5rem;
-    font-family: inter;
+    font-size: 1.25rem;
+    font-family: JetBrains mono;
     width: 500px;
     padding-left: 1rem;
     margin-left: 6rem;
@@ -76,7 +76,7 @@ button {
 .buttons a {
     text-decoration: none;
     color: #1a1b26;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
@@ -333,16 +333,16 @@ button {
 .colortext p {
     background-color: #414868;
     color: #9aa5ce;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    width: 100px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    width: 100%;
     height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-bottom: auto;
-
-
+    font-family: Fira code;
+    font-size:0.95rem;
 }
 
 
@@ -350,29 +350,14 @@ button {
 .color-content {
     display: flex;
     margin-top: 100px;
-    margin-left: 50px;
-
-
-
+    margin-left: 200px;
 }
 
-.color-row1 {
-    background-color: reds;
+.color-row {
     flex-direction: row;
     display: flex;
-
-}
-
-.color-row2 {
-    background-color: greens;
-    flex-direction: row;
-    display: flex;
-}
-
-.color-row3 {
-    background-color: oranges;
-    flex-direction: row;
-    display: flex;
+    gap:10px;
+    padding-bottom: 10px;
 }
 
 footer {
@@ -395,14 +380,16 @@ ul {
 
 .menu-h2 {
     color: #9aa5Ce;
-    text-align: center; 
+    text-align: left; 
     font-size: 20px;
     font-weight: normal;
+    font-family: inter;
 }
 
 .link-list {
     margin-left: 1%;
-    margin-right: 20px;
+    margin-right: 95px;
+    font-family: inter;
 }
 
 .link-list a {
