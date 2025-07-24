@@ -48,17 +48,12 @@ button:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     margin-left: 5%;
     margin-right: 5%;
     background-color: aquas;
 
 
-}
-
-.portgrid {
-    margin-left: 10%;
-    margin-right: 5%;
 }
 
 
@@ -70,7 +65,7 @@ button:hover {
 
 .themename {
     color: #9ece6a;
-    text-align: center;
+    text-align:left;
     padding: 0.5%;
     font-size: 40px;
 
@@ -78,19 +73,12 @@ button:hover {
 
 .header  {
     color: #f7768e;
-    text-align: center;
+    text-align: left;
     font-size: 3rem;
     margin-top: 3rem;
 }
 
-.seperator {
-    color: #c0caf5;
-    margin-bottom: 1rem;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
 
-}
 
 button a:hover {
     text-decoration:underline; 
@@ -117,14 +105,23 @@ p a:hover {
 
 .redirects {
     padding-top: 20px;
-    margin-left:0.5rem;
     width: 50rem;
     height: 50px;
+    text-align: left;
+    
 }
 
 .redirects a {
-    margin-left:40px;
+    margin-right:40px;
+    text-decoration: none;
     font-size: 40px;
-    color:#414868;
+    font-weight: bold;
+    color:#9aa5ce;
+    transition: 40ms;
+}
+
+.redirects a:hover {
+    text-decoration: underline;
+    text-decoration-color: #7dcfff;
 }
 
