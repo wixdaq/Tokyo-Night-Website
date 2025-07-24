@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="foot-logo.svg"
+   id="svg961"
+   viewBox="0 0 128 128"
+   height="128"
+   width="128"
+   version="1.1">
+  <metadata
+     id="metadata967">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>terminal</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs965" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg961"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="76.581598"
+     inkscape:cx="11.418092"
+     inkscape:zoom="3.3723452"
+     showgrid="false"
+     id="namedview963"
+     inkscape:window-height="809"
+     inkscape:window-width="1564"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title953">terminal</title>
+  <g
+     transform="translate(-0.4758808,1.9987664)"
+     id="g2607">
+    <path
+       d="M 119.8276,5.6244771 H 9.1241628 C 5.7292573,5.6299439 2.9794384,8.3797628 2.9739716,11.774668 V 112.22779 c 0.00547,3.39491 2.7552857,6.14473 6.1501912,6.1502 H 119.8276 c 3.39491,-0.005 6.14473,-2.75529 6.15019,-6.1502 V 11.774668 c -0.005,-3.3949052 -2.75528,-6.1447241 -6.15019,-6.1501909 z M 117.77754,110.17773 H 11.174227 V 13.824732 H 117.77754 Z"
+       id="path955"
+       style="stroke-width:5.46684" />
+    <path
+       d="m 53.969657,67.292324 h 32.80102 v 8.200255 h -32.80102 z"
+       id="path959"
+       style="stroke-width:5.46684" />
+    <g
+       id="g2561"
+       transform="matrix(2.1787144,0,0,2.1015161,-185.08235,-24.908175)">
+      <g
+         id="g2493"
+         transform="matrix(0.35970357,0,0,0.35970357,72.890026,20.247034)">
+	<g
+   id="g2491">
+		<path
+   id="path2467"
+   d="M 87.966,22.028 C 77.806,16.162 63.791,15.06 59.711,28.477 56.426,39.285 71.947,41.264 73.561,50.065 76.413,65.604 49.347,69.298 55.434,75.811 65.308,86.383 85.149,71.974 94.057,56.546 102.965,41.125 98.13,27.897 87.966,22.028 Z"
+   style="fill:#010002" />
+
+		<circle
+   id="circle2469"
+   r="7.1680002"
+   cy="7.1680002"
+   cx="71.443001"
+   style="fill:#010002" />
+
+		<circle
+   id="circle2471"
+   r="4.7309999"
+   cy="11.506"
+   cx="86.123001"
+   style="fill:#010002" />
+
+		<circle
+   id="circle2473"
+   r="4.2189999"
+   cy="17.798"
+   cx="95.742996"
+   style="fill:#010002" />
+
+		<circle
+   id="circle2475"
+   r="3.0599999"
+   cy="24.995001"
+   cx="101.738"
+   style="fill:#010002" />
+
+		<circle
+   id="circle2477"
+   r="1.954"
+   cy="31.308001"
+   cx="104.035"
+   style="fill:#010002" />
+
+		
+		
+		
+		
+		
+		
+	</g>
+
+</g>
+      <g
+         id="g2495">
+</g>
+      <g
+         id="g2497">
+</g>
+      <g
+         id="g2499">
+</g>
+      <g
+         id="g2501">
+</g>
+      <g
+         id="g2503">
+</g>
+      <g
+         id="g2505">
+</g>
+      <g
+         id="g2507">
+</g>
+      <g
+         id="g2509">
+</g>
+      <g
+         id="g2511">
+</g>
+      <g
+         id="g2513">
+</g>
+      <g
+         id="g2515">
+</g>
+      <g
+         id="g2517">
+</g>
+      <g
+         id="g2519">
+</g>
+      <g
+         id="g2521">
+</g>
+      <g
+         id="g2523">
+</g>
+    </g>
+  </g>
+</svg>

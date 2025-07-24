@@ -4,33 +4,35 @@ body {
 }
 
 img {
-    width:75px;
+    width: 75px;
     height: 75px;
 }
+
 button a {
     display: flex;
     width: 100%;
     background-color: #1a1b26;
     height: 30px;
     justify-content: center;
-    align-items:center;
-    margin-bottom:auto;
+    align-items: center;
+    margin-bottom: auto;
     margin-top: 7px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom: 2px solid#c0caf5;
     text-decoration: none;
-    color:#f7768e;
+    color: #f7768e;
     font-size: 1rem;
 }
+
+
 button {
     width: 200px;
     height: 150px;
-    
     border: 2px #c0caf5 solid;
-    background-color:#24283b;
+    background-color: #24283b;
     border-radius: 10px;
-    padding:0;
+    padding: 0;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
@@ -45,13 +47,21 @@ button:hover {
 .flexports {
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
-    justify-content:center;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: aquas;
 
 
 }
+
+.portgrid {
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+
 
 .porticon {
     padding: 15px;
@@ -59,16 +69,62 @@ button:hover {
 }
 
 .themename {
-    color:#9ece6a;
+    color: #9ece6a;
     text-align: center;
-    padding:0.5%;
+    padding: 0.5%;
     font-size: 40px;
+
 }
 
-.header {
-    color:#f7768e;
+.header  {
+    color: #f7768e;
     text-align: center;
     font-size: 3rem;
-    margin-top: 4rem;
+    margin-top: 3rem;
+}
+
+.seperator {
+    color: #c0caf5;
+    margin-bottom: 1rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+button a:hover {
+    text-decoration:underline; 
+}
+
+p {
+    font-size: 2rem;
+    color:#7aa2f7 ;
+}
+
+p a {
+    text-decoration: none;
+    color:#7dcfff;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.headnav {
+    width:100%;
+    height:4rem;
+}
+
+.redirects {
+    padding-top: 20px;
+    margin-left:0.5rem;
+    width: 50rem;
+    height: 50px;
+}
+
+.redirects a {
+    margin-left:40px;
+    font-size: 40px;
+    color:#414868;
 }
 
