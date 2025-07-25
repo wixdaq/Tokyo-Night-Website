@@ -11,23 +11,32 @@ td {
     margin:10px;
     padding-bottom: 1em;
     padding-top: 1em;
+    font-family: Fira Code;
 }
 
 thead {
-    border-bottom: 1px solid #c0caf5;
+    
     text-align: left;
 }
 
-tr:nth-of-type(2n) {
-    background-color: #1a1b26;
-}
+
 
 tr:nth-of-type(2n+1) {
-    background-color: #414868;
+    background-color: #41486880;
+}
+
+tr:nth-of-type(1) {
+    background-color: #1a1b2680;
 }
 
 th {
     background-color: #1a1b26;
+    padding-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    color:#7aa2f7;
+    font-weight: normal;
+    border-bottom: 1px solid #c0caf5;
 }
 
 .color {
@@ -37,9 +46,67 @@ th {
     margin-left: 10%;
 }
 
-.table-container {
+.flex-container {
     display: flex;
     flex-direction: column;
-    margin-left: 15%;
-    margin-right: 15%;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.header {
+    color: #f7768e;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2rem;
+}
+
+
+
+.palettename{
+    color:#9ece6a;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px solid #414868;
+    width: fit-content;
+    padding-top: 4rem
+}
+
+.headnav {
+    width:100%;
+    height:4rem;
+    text-align:left;
+    font-family: Fira Code;
+}
+
+
+.redirects {
+    padding-top: 20px;
+    padding-left: 10%;
+    white-space: nowrap;
+
+}
+
+.redirects a {
+    margin-right:40px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    color:#9aa5ce;
+    transition: 40ms;
+}
+
+.redirects a:hover {
+    text-decoration: underline;
+    text-decoration-color: #7dcfff;
+}
+
+p {
+    color: #7aa2f7;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.5em;
 }
