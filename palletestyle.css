@@ -2,14 +2,44 @@ body {
     background-color:#1a1b26;
 }
 
+table {
+    border-collapse: collapse;
+}
 
 td {
-    padding-left:20px;
-    
+    color:#c0caf5;   
+    margin:10px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+thead {
+    border-bottom: 1px solid #c0caf5;
+    text-align: left;
+}
+
+tr:nth-of-type(2n) {
+    background-color: #1a1b26;
+}
+
+tr:nth-of-type(2n+1) {
+    background-color: #414868;
+}
+
+th {
+    background-color: #1a1b26;
 }
 
 .color {
     width: 20px;
     height: 20px;
     border-radius: 50%;
+    margin-left: 10%;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
 }
