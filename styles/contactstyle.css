@@ -9,17 +9,25 @@ body {
 }
 
 .contact-card {
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 400px;
+    min-width: 150px;
+    min-height: 300px;
     margin: 20px;
     border-radius: 10px;
     border: 1px solid #c9caf5;
     padding: 10px;
+    margin-top: 5rem;
 }
 
 p {
-    text-align: center;
+    text-align: left;
     color: #c0caf5;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2.5rem;
+    padding-left:10px;
+    padding-right: 10px;
 }
 
 img {
@@ -37,4 +45,33 @@ img {
 
 h1 {
     color:#f7768e;
+}
+
+.headnav {
+    width:100%;
+    height:4rem;
+    text-align:left;
+    font-family: Fira Code;
+}
+
+
+.redirects {
+    padding-top: 20px;
+    padding-left: 10%;
+    white-space: nowrap;
+
+}
+
+.redirects a {
+    margin-right:40px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    color:#9aa5ce;
+    transition: 40ms;
+}
+
+.redirects a:hover {
+    text-decoration: underline;
+    text-decoration-color: #7dcfff;
 }
