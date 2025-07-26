@@ -21,7 +21,7 @@ button a {
     border-bottom-right-radius: 10px;
     border-bottom: 2px solid#c0caf5;
     text-decoration: none;
-    color: #f7768e;
+    color:  	#c0caf5;
     font-size: 1rem;
 }
 
@@ -49,8 +49,8 @@ button:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: aquas;
 
 
@@ -60,14 +60,15 @@ button:hover {
 
 .porticon {
     padding: 15px;
-    filter: brightness(0) saturate(100%) invert(68%) sepia(95%) saturate(493%) hue-rotate(175deg) brightness(102%) contrast(102%);
-}
+    filter: brightness(0) saturate(100%) invert(90%) sepia(6%) saturate(7454%) hue-rotate(185deg) brightness(105%) contrast(92%);
+    /* filter: brightness(0) saturate(100%) invert(68%) sepia(95%) saturate(493%) hue-rotate(175deg) brightness(102%) contrast(102%);
+ */}
 
 .themename {
     color: #9ece6a;
     text-align:left;
     padding: 0.5%;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 
