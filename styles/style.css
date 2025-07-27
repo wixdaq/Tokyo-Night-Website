@@ -6,6 +6,7 @@
 
 .flex-container {
     display: flex;
+    margin-bottom: 100%;
 }
 
 .content {
@@ -366,8 +367,6 @@ button {
 footer {
     display: flex;
     flex-direction: row;
-    position: fixed;
-    bottom: 0;
     background-color: greens;
     width: 100%;
     padding-left: 5%;

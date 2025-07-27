@@ -44,7 +44,7 @@ button:hover {
     transition: ease-in-out 0.5;
 }
 
-.flexports {
+.flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -52,8 +52,6 @@ button:hover {
     margin-left: 10%;
     margin-right: 10%;
     background-color: aquas;
-
-
 }
 
 
@@ -119,7 +117,7 @@ p a:hover {
 .redirects a {
     margin-right:40px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     color:#9aa5ce;
     transition: 40ms;
@@ -131,3 +129,46 @@ p a:hover {
 }
 
 
+/* footer {
+    position:absolute;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: greens;
+    width: 100%;
+    padding-left: 5%;
+    border-top: 1px solid #565f89
+}
+
+
+ul {
+    list-style: none;
+    color: #565f89;
+    padding: 0;
+}
+
+.menu-h2 {
+    color: #9aa5Ce;
+    text-align: left; 
+    font-size: 20px;
+    font-weight: normal;
+    font-family: inter;
+}
+
+.link-list {
+    margin-left: 1%;
+    margin-right: 95px;
+    font-family: inter;
+    font-size: 15px;
+}
+
+.link-list a {
+    color: #565f89;
+    text-decoration: none;
+}
+
+.link-list a:hover {
+    text-decoration: underline;
+}
+
+ */

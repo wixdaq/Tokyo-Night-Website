@@ -8,10 +8,11 @@ body {
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: aquamarine;
+    background-color: aquamarines;
     flex-wrap: wrap;
     width: fit-content;
     height: fit-content;
+    margin-bottom: 13.8em;
 }
 
 .contact-card {
@@ -54,7 +55,6 @@ img {
     width:100%;
     height:4rem;
     font-family: Fira Code;
-    justify-items: flex-start;
 }
 
 
@@ -62,13 +62,12 @@ img {
     padding-top: 20px;
     background-color:aquas;
     white-space: nowrap;
-    margin-left: 14%;
 }
 
 .redirects a {
     margin-right:40px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     color:#9aa5ce;
     transition: 40ms;
@@ -79,4 +78,43 @@ img {
     text-decoration-color: #7dcfff;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: greens;
+    width: 100%;
+    padding-left: 5%;
+    border-top: 1px solid #565f89
+}
+
+
+ul {
+    list-style: none;
+    color: #565f89;
+    padding: 0;
+}
+
+.menu-h2 {
+    color: #9aa5Ce;
+    text-align: left; 
+    font-size: 20px;
+    font-weight: normal;
+    font-family: inter;
+}
+
+.link-list {
+    margin-left: 1%;
+    margin-right: 95px;
+    font-family: inter;
+    font-size: 15px;
+}
+
+.link-list a {
+    color: #565f89;
+    text-decoration: none;
+}
+
+.link-list a:hover {
+    text-decoration: underline;
+}
 
