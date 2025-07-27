@@ -156,8 +156,9 @@ footer {
     flex-direction: row;
     background-color: greens;
     width: 100%;
-    padding-left: 5%;
-    border-top: 1px solid #565f89
+    margin-top:10% ;
+    border-top: 1px solid #565f89;
+    padding-left: 10%;
 }
 
 

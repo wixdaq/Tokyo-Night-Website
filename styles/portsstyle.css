@@ -1,6 +1,7 @@
 
 body {
     background-color: #1a1b26;
+    min-height: 1920px;
 }
 
 img {
@@ -19,9 +20,8 @@ button a {
     margin-top: 7px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    border-bottom: 2px solid#c0caf5;
     text-decoration: none;
-    color:  	#c0caf5;
+    color:#c0caf5;
     font-size: 1rem;
 }
 
@@ -49,8 +49,6 @@ button:hover {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: left;
-    margin-left: 10%;
-    margin-right: 10%;
     background-color: aquas;
 }
 
@@ -109,7 +107,7 @@ p a:hover {
 .redirects {
     padding-top: 20px;
     width: 50rem;
-    height: 50px;
+    height: 50px;relative
     text-align: left;
     
 }
@@ -129,15 +127,16 @@ p a:hover {
 }
 
 
-/* footer {
-    position:absolute;
-    min-height: 100vh;
+footer {
     display: flex;
     flex-direction: row;
     background-color: greens;
-    width: 100%;
+    min-width: 100%;
+    margin-top: 10%;
     padding-left: 5%;
-    border-top: 1px solid #565f89
+    border-top: 1px solid #565f89;
+  
+
 }
 
 
@@ -171,4 +170,7 @@ ul {
     text-decoration: underline;
 }
 
- */
+.portgrid {
+    margin-left: 5%;
+    margin-right: 5%;
+}
