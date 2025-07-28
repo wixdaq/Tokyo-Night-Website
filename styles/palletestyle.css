@@ -155,10 +155,9 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: greens;
-    width: 100%;
-    margin-top:10% ;
+    margin-top:100px;
     border-top: 1px solid #565f89;
-    padding-left: 10%;
+    padding-left: 55px;
 }
 
 
@@ -174,10 +173,11 @@ ul {
     font-size: 20px;
     font-weight: normal;
     font-family: inter;
+    height: 15px;
 }
 
 .link-list {
-    margin-left: 1%;
+    margin-left: 10px;
     margin-right: 95px;
     font-family: inter;
     font-size: 15px;
