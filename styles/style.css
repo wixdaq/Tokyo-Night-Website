@@ -6,7 +6,7 @@
 
 .flex-container {
     display: flex;
-    margin-bottom: 100%;
+    margin-bottom: 131px;
 }
 
 .content {
@@ -366,6 +366,7 @@ button {
 
 footer {
     display: flex;
+    max-height: 128px;
     flex-direction: row;
     background-color: greens;
     padding-left: 55px;
@@ -391,6 +392,7 @@ ul {
 .link-list {
     margin-left: 10px;
     margin-right: 95px;
+    padding-bottom: 20px;
     font-family: inter;
     font-size: 15px;
 }
