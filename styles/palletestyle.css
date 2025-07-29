@@ -32,7 +32,7 @@ tr:nth-of-type(1) {
 th {
     background-color: #1a1b26;
     padding-bottom: 1rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:inter;
     font-size: 1.2rem;
     color:#7aa2f7;
     font-weight: normal;
@@ -58,7 +58,7 @@ th {
 .header {
     color: #f7768e;
     font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: inter;
     padding-top: 2rem;
 }
 
@@ -70,14 +70,13 @@ th {
     text-align: left;
     font-weight: bold;
     padding-bottom: 1rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: inter;
     border-bottom: 1px solid #414868;
     width: fit-content;
     padding-top: 1rem
 }
 
 .headnav {
-    width:100%;
     height:4rem;
     text-align:left;
     font-family: Fira Code;
@@ -107,7 +106,7 @@ th {
 
 p {
     color: #7aa2f7;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: inter;
     font-size:1.5em;
 }
 

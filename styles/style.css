@@ -31,8 +31,8 @@ h1 {
 
 .info {
     color: #7aa2f7;
-    font-size: 1.25rem;
-    font-family: JetBrains mono;
+    font-size: 1.45rem;
+    font-family:inter;
     width: 500px;
     padding-left: 1rem;
     margin-left: 6rem;
@@ -69,7 +69,7 @@ button {
     margin-right: 0.5rem;
     margin-top: 1rem;
     border:none;
-
+    font-family: Jet brains mono;
 }
 
 .buttons {

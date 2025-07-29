@@ -1,57 +1,37 @@
-body {
-    background-color: #1a1b26;
-}
+ body {
+    background-color:#1a1b26;
+ }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+ .flex-container {
     margin-left: 10%;
     margin-right: 10%;
-    background-color: aquamarines;
     flex-wrap: wrap;
-    width: fit-content;
-    height: fit-content;
-    margin-bottom: 18em;
-}
-
-.contact-card {
-    width: 300px;
-    height: 400px;
-    min-width: 150px;
-    min-height: 300px;
-    margin: 20px;
-    border-radius: 10px;
-    border: 1px solid #c9caf5;
-    padding: 10px;
-    margin-top: 8rem;
-}
-
-p {
-    text-align: left;
-    color: #c0caf5;
-    font-size: 1.2rem;
+ }
+ 
+ h1 {
+    color:#f7768e;
+    font-family: inter;
+    font-size: 40px;
+    margin-bottom: 50px;
+ }
+ 
+ h2 {
+    color:#9ece6a;
     font-family:inter;
-    margin-top: 2.5rem;
-    padding-left:10px;
-    padding-right: 10px;
-}
-
-img {
-    width: 70px;
-    height: 70px;
-}
-
-.icon {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    filter: brightness(0) saturate(100%) invert(68%) sepia(95%) saturate(493%) hue-rotate(175deg) brightness(102%) contrast(102%);
-    padding-top: 25%;
-}
-
-
-.headnav {
+ }
+ 
+ ul {
+    color:#7aa2f7;
+    font-family: inter;
+ }
+ 
+ p {
+    color:#c0caf5; 
+    font-size: 18px;
+    font-family: inter;
+ }
+ 
+ .headnav {
     width:100%;
     height:4rem;
     font-family: Fira Code;
@@ -85,11 +65,12 @@ footer {
     background-color: greens;
     padding-left: 55px;
     border-top: 1px solid #565f89;
-    margin-top: 100px;
+    margin-top: 256px;
+    
 }
 
 
-ul {
+.link-list ul {
     list-style: none;
     color: #565f89;
     padding: 0;
@@ -119,4 +100,3 @@ ul {
 .link-list a:hover {
     text-decoration: underline;
 }
-
