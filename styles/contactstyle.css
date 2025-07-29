@@ -12,7 +12,7 @@ body {
     flex-wrap: wrap;
     width: fit-content;
     height: fit-content;
-    margin-bottom: 15em;
+    margin-bottom: 18em;
 }
 
 .contact-card {
@@ -24,7 +24,7 @@ body {
     border-radius: 10px;
     border: 1px solid #c9caf5;
     padding: 10px;
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 p {

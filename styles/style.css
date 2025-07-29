@@ -51,7 +51,7 @@ body {
     border-color: #f7768e;
 }
 
-.pallete {
+.palette {
     background-color: #7aa2f7;
     border-color: #7aa2f7;
 }
@@ -66,6 +66,7 @@ button {
     padding: 10px;
     font-size: 30px;
     margin-left: 0.7rem;
+    margin-right: 0.5rem;
     margin-top: 1rem;
     border:none;
 
