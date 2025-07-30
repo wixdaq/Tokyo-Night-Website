@@ -4,6 +4,7 @@ body {
 
 table {
     border-collapse: collapse;
+    margin-bottom: 2.5%;
 }
 
 td {
@@ -15,7 +16,6 @@ td {
 }
 
 thead {
-    
     text-align: left;
 }
 

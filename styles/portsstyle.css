@@ -73,7 +73,7 @@ button:hover {
     text-align: left;
     font-size: 20px;
     font-weight:400;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: inter;
     margin-top: 3rem;
     padding-left: 0.5%;
 }

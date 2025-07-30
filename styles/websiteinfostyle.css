@@ -4,8 +4,8 @@
 
  .flex-container {
     margin-left: 10%;
-    margin-right: 10%;
     flex-wrap: wrap;
+    width:50%;
  }
  
  h1 {
@@ -30,7 +30,16 @@
     font-size: 18px;
     font-family: inter;
  }
+
+ a {
+    color:#7dcfff;
+    text-decoration: none;
+ }
  
+a:hover {
+    text-decoration: underline;
+}
+
  .headnav {
     width:100%;
     height:4rem;
