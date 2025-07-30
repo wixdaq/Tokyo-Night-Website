@@ -5,12 +5,12 @@
 
 .flex-container {
     display: flex;
-    margin-bottom: 138px;
+    margin-bottom: 240%;
 }
 
 .content {
     flex-direction: row;
-    margin-left: 100px;    
+    
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
 .info {
     color: #7aa2f7;
     font-size: 1.45rem;
-    font-family:inter;
+    font-family: inter;
     width: 500px;
     padding-left: 1rem;
     margin-left: 6rem;
@@ -65,10 +65,9 @@ button {
     padding: 10px;
     font-size: 30px;
     margin-left: 0.7rem;
-    margin-right: 0.5rem;
     margin-top: 1rem;
     border:none;
-    font-family: Jet brains mono;
+ 
 }
 
 .buttons {
@@ -77,8 +76,9 @@ button {
 
 .buttons a {
     text-decoration: none;
-    color: #1a1b26;
+    color:#1a1b26;
     font-weight: 600;
+    font-family: inter;
 
 }
 
@@ -366,11 +366,11 @@ button {
 
 footer {
     display: flex;
-    max-height: 120px;
     flex-direction: row;
     background-color: greens;
     padding-left: 55px;
-    border-top: 1px solid #565f89
+    border-top: 1px solid #565f89;
+    height: 120px;
 }
 
 
@@ -392,7 +392,6 @@ ul {
 .link-list {
     margin-left: 10px;
     margin-right: 95px;
-    padding-bottom: 20px;
     font-family: inter;
     font-size: 15px;
 }
