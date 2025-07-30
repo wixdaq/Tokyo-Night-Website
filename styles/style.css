@@ -1,17 +1,16 @@
 .container {
-    max-width: 1920px;
     display: grid;
     grid-template-columns: 100px;
 }
 
 .flex-container {
     display: flex;
-    margin-bottom: 131px;
+    margin-bottom: 138px;
 }
 
 .content {
     flex-direction: row;
-    
+    margin-left: 100px;    
 }
 
 h1 {
@@ -367,7 +366,7 @@ button {
 
 footer {
     display: flex;
-    max-height: 128px;
+    max-height: 120px;
     flex-direction: row;
     background-color: greens;
     padding-left: 55px;

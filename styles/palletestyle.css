@@ -42,7 +42,7 @@ th {
 .color {
     width: 20px;
     height: 20px;
-    border-radius: 50%;
+    border-radius:50%;
     margin-left: 10%;
 }
 
@@ -57,9 +57,10 @@ th {
 
 .header {
     color: #f7768e;
+    text-align: left;
     font-size: 40px;
     font-family: inter;
-    padding-top: 2rem;
+    padding-top: 20px;
 }
 
 
@@ -105,14 +106,15 @@ th {
 }
 
 p {
-    color: #7aa2f7;
+    color: #c0caf5;
     font-family: inter;
-    font-size:1.5em;
+    font-size:25px;
 }
 
 
 footer {
     display: flex;
+    max-height: 120px;
     flex-direction: row;
     background-color: greens;
     margin-top:100px;
