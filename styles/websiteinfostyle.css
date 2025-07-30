@@ -19,11 +19,13 @@
  h2 {
     color:#9ece6a;
     font-family:inter;
+    font-size: 25px;
  }
  
- ul {
+ .todo {
     color:#7aa2f7;
     font-family: inter;
+    font-size: 18px;
  }
  
  p {
