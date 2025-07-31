@@ -1,47 +1,13 @@
 
 body {
     background-color: #1a1b26;
-    min-height: 1920px;
+   margin: 0;
 }
+
 
 img {
     width: 75px;
     height: 75px;
-}
-
-button a {
-    display: flex;
-    width: 100%;
-    background-color: #1a1b26;
-    height: 30px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: auto;
-    margin-top: 7px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    text-decoration: none;
-    color:#c0caf5;
-    font-size: 1rem;
-}
-
-
-button {
-    width: 200px;
-    height: 150px;
-    border: 2px #c0caf5 solid;
-    background-color: #24283b;
-    border-radius: 10px;
-    padding: 0;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-button:hover {
-    transform: scale(1.1);
-    transition: ease-in-out 0.5;
 }
 
 .flex-container {
@@ -51,8 +17,6 @@ button:hover {
     justify-content: left;
     background-color: aquas;
     padding-left:10%;
-    
-
 }
 
 
