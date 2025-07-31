@@ -132,6 +132,8 @@ ul {
 
 .portgrid {
     display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
     justify-content: left;
     flex-wrap: wrap;
     width: 90%;
@@ -148,7 +150,6 @@ ul {
     background-color: #24283b;
     border: 2px solid #c0caf5;
     border-radius: 10px;
-    margin: 10px;
     text-decoration: none;
 }
 
@@ -168,6 +169,7 @@ ul {
     border-bottom-right-radius: 10px;
     color: #c0caf5;
     font-size: 1rem;
+    font-weight:500;
 }
 
 
