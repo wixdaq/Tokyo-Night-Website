@@ -74,6 +74,7 @@ p {
     text-align: left;
     font-weight: bold;
     padding-bottom: 1rem;
+    margin-bottom: 2rem;
     font-family: inter;
     border-bottom: 1px solid #414868;
     width: fit-content;

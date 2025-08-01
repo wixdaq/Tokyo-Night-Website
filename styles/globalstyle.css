@@ -25,6 +25,8 @@
 .redirects a:hover {
     text-decoration: underline;
     text-decoration-color: #7dcfff;
+    text-decoration-thickness: 2px;
+    text-underline-offset:8px;
 }
 
 footer {
