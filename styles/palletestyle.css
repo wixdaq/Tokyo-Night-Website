@@ -1,6 +1,4 @@
-body {
-    background-color:#1a1b26;
-}
+
 
 table {
     border-collapse: collapse;
@@ -58,9 +56,14 @@ th {
 .header {
     color: #f7768e;
     text-align: left;
-    font-size: 40px;
+    font-size: 20px;
     font-family: inter;
-    padding-top: 20px;
+}
+
+p {
+    font-size: 25px;
+    color: #c0caf5;
+    font-family: inter;
 }
 
 
@@ -77,80 +80,4 @@ th {
     padding-top: 1rem
 }
 
-.headnav {
-    height:4rem;
-    text-align:left;
-    font-family: Fira Code;
-}
-
-
-.redirects {
-    padding-top: 20px;
-    padding-left: 10%;
-    white-space: nowrap;
-
-}
-
-.redirects a {
-    margin-right:40px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    color:#9aa5ce;
-    transition: 40ms;
-}
-
-.redirects a:hover {
-    text-decoration: underline;
-    text-decoration-color: #7dcfff;
-}
-
-p {
-    color: #c0caf5;
-    font-family: inter;
-    font-size:25px;
-}
-
-
-footer {
-    display: flex;
-    max-height: 120px;
-    flex-direction: row;
-    background-color: greens;
-    margin-top:100px;
-    border-top: 1px solid #565f89;
-    padding-left: 55px;
-}
-
-
-ul {
-    list-style: none;
-    color: #565f89;
-    padding: 0;
-}
-
-.menu-h2 {
-    color: #9aa5Ce;
-    text-align: left; 
-    font-size: 20px;
-    font-weight: normal;
-    font-family: inter;
-    height: 15px;
-}
-
-.link-list {
-    margin-left: 10px;
-    margin-right: 95px;
-    font-family: inter;
-    font-size: 15px;
-}
-
-.link-list a {
-    color: #565f89;
-    text-decoration: none;
-}
-
-.link-list a:hover {
-    text-decoration: underline;
-}
 
