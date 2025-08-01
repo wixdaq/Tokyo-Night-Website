@@ -1,3 +1,16 @@
+:root {
+    --color-background:#1a1b26;
+    --color-text:#c0caf5; 
+    --color-link:#7dcfff;	
+    --color-nav-list:#565f89;
+    --color-nav-border:#565f89;
+    --color-nav-heading:#9aa5Ce;
+    --color-h1:#f7768e;
+    --color-h2:#9ece6a;
+}
+
+
+
 .headnav {
     width: 100%;
     height: 4rem;
@@ -9,7 +22,7 @@
     padding-top: 20px;
     width: 50rem;
     height: 50px;
-    relative text-align: left;
+    text-align: left;
     padding-left: 10%;
 }
 
@@ -18,37 +31,37 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
-    color: #9aa5ce;
+    color: var(--color-nav-heading);
     transition: 40ms;
 }
 
 .redirects a:hover {
     text-decoration: underline;
-    text-decoration-color: #7dcfff;
+    text-decoration-color: var(--color-link);
     text-decoration-thickness: 2px;
     text-underline-offset:8px;
 }
 
+
 footer {
     display: flex;
     flex-direction: row;
-    max-height: 120px;
+    height: 120px;
+    width:100%;
     background-color: greens;
     margin-top: 100px;
     padding-left: 55px;
-    border-top: 1px solid #565f89;
-
+    border-top: 1px solid var(--color-nav-list);
 }
 
 
 ul {
     list-style: none;
-    color: #565f89;
     padding: 0;
 }
 
 .menu-h2 {
-    color: #9aa5Ce;
+    color:var(--color-nav-heading);
     text-align: left;
     font-size: 20px;
     font-weight: normal;
@@ -65,8 +78,9 @@ ul {
 }
 
 .link-list a {
-    color: #565f89;
+    color:var(--color-nav-list);
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .link-list a:hover {
@@ -74,6 +88,12 @@ ul {
 }
 
 body {
-    background-color: #1a1b26;
+    background-color:var(--color-background);
 }
 
+.heading {
+   color:var(--color-h1);
+   font-family: inter;
+   text-align: left;
+   white-space: nowrap;
+}
