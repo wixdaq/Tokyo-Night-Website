@@ -9,13 +9,13 @@
 }
 
 
-
 .theme-name {
     color: #9ece6a;
     text-align: left;
     font-size: 25px;
     font-family: inter;
-
+    margin-top: 35px;
+    margin-bottom: 25px;
 }
 
 
@@ -29,6 +29,7 @@ button a:hover {
 }
 
 p {
+    margin-top: 20px;
     font-size: 25px;
     color: #c0caf5;
     font-family: inter;
@@ -36,7 +37,7 @@ p {
 
 p a {
     text-decoration: none;
-    color: #7dcfff;
+    color: #7dcfff !important; 
 }
 
 p a:hover {
@@ -78,13 +79,12 @@ p a:hover {
 .port-name {
     background-color: #1a1b26;
     height: 25px;
-    width: 200px;
+    width:100%;
     text-align: center;
-    padding-top: 5px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: #c0caf5;
-    font-size: 1rem;
+    font-size: 1em;
     font-weight:500;
 }
 
@@ -103,3 +103,4 @@ p a:hover {
     /* filter: brightness(0) saturate(100%) invert(68%) sepia(95%) saturate(493%) hue-rotate(175deg) brightness(102%) contrast(102%);
  */
 }
+

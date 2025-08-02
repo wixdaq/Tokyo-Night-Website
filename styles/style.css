@@ -1,16 +1,14 @@
-.container {
-    display: grid;
-    grid-template-columns: 100px;
-}
 
 .flex-container {
     display: flex;
-    margin-bottom: 240%;
 }
 
 .content {
     flex-direction: row;
-    
+    padding-top:5%;
+    padding-left:10%;   
+    width:600px;
+    height: 600px;
 }
 
 h1 {
@@ -18,23 +16,18 @@ h1 {
     font-weight: bolder;
     font-size: 70px;
     font-family: Roboto Slab;
-    margin-left: 6rem;
-
 }
 
 .header {
-    padding-top: 2em;
-    width: 650px;
-
+    
 }
 
 .info {
     color: #7aa2f7;
-    font-size: 1.45rem;
+    font-size: 1.45em;
     font-family: inter;
     width: 500px;
-    padding-left: 1rem;
-    margin-left: 6rem;
+    padding-left:2%;
     border-left: 5px #f7768e solid;
     
 
@@ -60,14 +53,12 @@ button {
     border-radius: 10px;
     padding: 10px;
     font-size: 30px;
-    margin-left: 0.7rem;
-    margin-top: 1rem;
     border:none;
- 
+    margin-right: 10px;
 }
 
 .buttons {
-    padding: 1rem 5rem;
+    margin-top: 30px;
 }
 
 .buttons a {
@@ -232,11 +223,8 @@ button {
     text-align: center;
     border-radius: 10px;
     align-content: end;
-body {
-    background-color: #1a1b26;
 }
 
-}
 
 .color1a1b26 {
     background-color: #1a1b26;
@@ -340,19 +328,18 @@ body {
     height: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     margin-bottom: auto;
     font-family: Fira code;
-    font-size:0.95rem;
+    font-size:0.95em;
 }
 
 
 
 .color-content {
     display: flex;
-    margin-top: 6rem;
-    margin-left: 300%;
-    padding-right: 200%;
+    margin-top: 5%;
+    margin-left: 0;
+    padding-right:;
 
 }
 
