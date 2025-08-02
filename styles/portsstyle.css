@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: left;
     background-color: aquas;
-    padding-left: 10%;
+   
 }
 
 
@@ -52,7 +52,7 @@ p a:hover {
     column-gap: 20px;
     justify-content: left;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     font-family: inter;
     margin-bottom: 5%;
 }
@@ -103,4 +103,5 @@ p a:hover {
     /* filter: brightness(0) saturate(100%) invert(68%) sepia(95%) saturate(493%) hue-rotate(175deg) brightness(102%) contrast(102%);
  */
 }
+
 

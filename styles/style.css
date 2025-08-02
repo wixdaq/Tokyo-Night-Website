@@ -5,8 +5,7 @@
 
 .content {
     flex-direction: row;
-    padding-top:100px;
-    padding-left:100px;   
+    padding-top:100px;   
     width:800px;
 }
 

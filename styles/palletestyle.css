@@ -48,9 +48,6 @@ th {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
-    
 }
 
 
@@ -61,6 +58,8 @@ h1 {
 
 p {
     font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     color: #c0caf5;
     font-family: inter;
 }
