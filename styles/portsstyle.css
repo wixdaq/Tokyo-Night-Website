@@ -1,3 +1,17 @@
+:root {
+    --color-background: #1a1b26;
+    --color-text: #c0caf5;
+    --color-link: #7dcfff;
+    --color-nav-list: #565f89;
+    --color-nav-border: #565f89;
+    --color-nav-heading: #9aa5Ce;
+    --color-h1: #f7768e;
+    --color-h2: #9ece6a;
+    --color-tr-1: #41486880;
+    --color-tr-2:#1a1b2680;
+    --color-background-lighter: #24283b;
+
+}
 
 .flex-container {
     display: flex;
@@ -10,7 +24,7 @@
 
 
 .theme-name {
-    color: #9ece6a;
+    color: var(--color-h2);
     text-align: left;
     font-size: 25px;
     font-family: inter;
@@ -31,13 +45,13 @@ button a:hover {
 p {
     margin-top: 20px;
     font-size: 25px;
-    color: #c0caf5;
+    color: var(--color-text);
     font-family: inter;
 }
 
 p a {
     text-decoration: none;
-    color: #7dcfff !important; 
+    color: var(--color-link) !important; 
 }
 
 p a:hover {
@@ -64,8 +78,8 @@ p a:hover {
     justify-items: center;
     height: 150px;
     width: 200px;
-    background-color: #24283b;
-    border: 2px solid #c0caf5;
+    background-color: var(--color-background-lighter);
+    border: 2px solid var(--color-text);
     border-radius: 10px;
     text-decoration: none;
 }
@@ -73,17 +87,17 @@ p a:hover {
 .port:hover {
     transform: scale(1.1);
     text-decoration: underline;
-    text-decoration-color:#c0caf5;
+    text-decoration-color:var(--color-text);
 }
 
 .port-name {
-    background-color: #1a1b26;
+    background-color: var(--color-background);
     height: 25px;
     width:100%;
     text-align: center;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: #c0caf5;
+    color: var(--color-text);
     font-size: 1em;
     font-weight:500;
 }
