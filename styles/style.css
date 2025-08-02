@@ -10,6 +10,9 @@
     --color-tr-1: #41486880;
     --color-tr-2:#1a1b2680;
     --color-background-lighter: #24283b;
+    --color-button-theme: #f76e8e;
+    --color-button-palette: #7aa2f7;
+    --color-button-contact: #9ece6a;
 
 }
 .flex-container {
@@ -38,24 +41,22 @@ h1 {
     width: 600px;
     padding-left:10px;
     border-left: 5px var(--color-h1) solid;
-    
-
 }
 
 
 .theme {
-    background-color: #f7768e;
-    border-color: #f7768e;
+    background-color:var(--color-button-theme);
+    border-color:var(--color-button-theme);
 }
 
 .palette {
-    background-color: #7aa2f7;
-    border-color: #7aa2f7;
+    background-color:var(--color-button-palette);
+    border-color:var(--color-button-palette);
 }
 
 .contact {
-    background-color: #9ece6a;
-    border-color: #9ece6a;
+    background-color: var(--color-button-contact);
+    border-color: var(--color-button-contact);
 }
 
 button {
@@ -348,6 +349,7 @@ button {
     display: flex;
     margin-top: 100px;
     margin-left: 200px;
+    padding-right:100px;
 }
 
 .color-row {

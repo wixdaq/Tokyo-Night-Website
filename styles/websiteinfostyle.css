@@ -1,18 +1,36 @@
-.flex-container {
-   margin-left: 10%;
-   flex-wrap: wrap;
-   width: 60%;
+:root {
+    --color-background: #1a1b26;
+    --color-text: #c0caf5;
+    --color-link: #7dcfff;
+    --color-nav-list: #565f89;
+    --color-nav-border: #565f89;
+    --color-nav-heading: #9aa5Ce;
+    --color-h1: #f7768e;
+    --color-h2: #9ece6a;
+    --color-tr-1: #41486880;
+    --color-tr-2:#1a1b2680;
+    --color-background-lighter: #24283b;
 }
 
+.flex-container {
+   flex-wrap: wrap;
+   width: 80%;
+}
+
+.content-container {
+   margin-bottom: 25px;
+}
 
 h1 {
    font-size: 40px;
+   margin-bottom: 40px;
 }
 
 h2 {
    color: #9ece6a;
    font-family: inter;
    font-size: 25px;
+   margin-bottom: 5px;
    white-space: nowrap;
 }
 
@@ -20,7 +38,8 @@ h2 {
    color: #7aa2f7;
    font-family: inter;
    font-size: 18px;
-
+   text-align: left;
+   list-style-position: inside;
 }
 
 
@@ -38,3 +57,4 @@ a {
 a:hover {
    text-decoration: underline;
 }
+
