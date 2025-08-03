@@ -54,13 +54,6 @@ footer {
     border-top: 1px solid var(--color-nav-list);
 }
 
-@media (max-width: 600px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
  footer ul {
     list-style: none;
     padding: 0;
@@ -68,7 +61,7 @@ footer {
 
 .menu-h2 {
     color: var(--color-nav-heading);
-    text-align: left;
+
     font-size: 20px;
     font-weight: normal;
     font-family: inter;
@@ -106,7 +99,8 @@ body {
     color: var(--color-h1);
     font-family: inter;
     text-align: left;
-    white-space: nowrap;
+    padding-right: 5%;
+
 }
 
 .container {
@@ -114,4 +108,23 @@ body {
     padding-left: 15%;
     flex-grow: 1;
     padding-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding-left:25%;
+    }
+    .link-list {
+        text-align: center;
+    }
+
+    .redirects a {
+        margin-right: 1%;
+    }
+
+    .container {
+        padding-left:5% !important;
+    }
 }

@@ -118,4 +118,25 @@ p a:hover {
  */
 }
 
+@media (max-width:600px)
+{
+    .port-grid {
+        justify-content:center;
+    }
+
+    h1, p, .theme-name {
+        text-align: center;
+    }
+
+    .port {
+        width: 45%;
+        font-size: 75%;
+    }
+
+    .port-name {
+        padding:1%;
+        padding-top:2%;
+    }
+}    
+
 

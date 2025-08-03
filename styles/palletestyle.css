@@ -15,6 +15,8 @@
 table {
     border-collapse: collapse;
     margin-bottom: 2.5%;
+    white-space: nowrap;
+    
 }
 
 td {
@@ -91,4 +93,19 @@ p {
     padding-top: 1em
 }
 
+@media (max-width:600px) 
+    {
+        h1, p {
+            text-align: center;
+            font-size: ;
+        }
 
+        th {
+            padding-right: 10px;
+        }
+
+        td {
+            padding-right: 20px;
+        }
+
+    }
