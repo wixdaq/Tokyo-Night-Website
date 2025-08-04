@@ -47,6 +47,7 @@ p {
     font-size: 25px;
     color: var(--color-text);
     font-family: inter;
+    padding-right: 1%;
 }
 
 p a {
@@ -116,6 +117,10 @@ p a:hover {
     filter: brightness(0) saturate(100%) invert(90%) sepia(6%) saturate(7454%) hue-rotate(185deg) brightness(105%) contrast(92%);
     /* filter: brightness(0) saturate(100%) invert(68%) sepia(95%) saturate(493%) hue-rotate(175deg) brightness(102%) contrast(102%);
  */
+}
+
+.container {
+    max-width: 1700px;
 }
 
 @media (max-width:600px)
