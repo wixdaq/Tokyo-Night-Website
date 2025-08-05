@@ -18,12 +18,13 @@
 
 .flex-container {
     display: flex;
+    flex-direction: column;
 }
 
 .content {
     flex-direction: row;
     padding-top: 100px;
-    width: 800px;
+    width: 600px;
 }
 
 h1 {
@@ -351,17 +352,16 @@ button {
 
 .color-content {
     display: flex;
-    /* margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 100px; */
-    width: 800px;
+    margin-top: 100px;
+    padding-right: 200px;
+    width: 500px;
     height: 600px;
     flex-wrap: wrap;
     flex-direction:column;
-    gap:10px;
+    gap:5px;
     padding-bottom:10px;
     justify-content:end;
-    background-color: #2aa2f7;
+    background-color:aquas;
 }
 
 .color-row {
@@ -397,5 +397,20 @@ button {
 
     .flex-container {
         flex-direction: column;
+    }
+}
+
+@media (min-width:1440px) 
+{
+    .color-content{
+        width: 1200px;
+        height: 550px;
+        background-color: aquas;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    .flex-container {
+        flex-direction: row;
     }
 }
