@@ -13,11 +13,10 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    gap: 60px;
+    gap: 20px;
     background-color: aquamarines;
     flex-wrap: wrap;
     margin-top: 90px;
-
 }
 
 .contact-card {
@@ -34,9 +33,9 @@
 p {
     color: var(--color-text);
     font-size: 1.2em;
-    font-family:inter;
+    font-family: inter;
     text-align: left;
-    margin-left:15px;
+    margin-left: 15px;
     margin-right: 15px;
     margin-top: 70px;
 
@@ -48,7 +47,7 @@ img {
 }
 
 .card-link {
-    color:var(--color-link);
+    color: var(--color-link);
     text-decoration: none;
 }
 
@@ -60,8 +59,22 @@ img {
 .icon {
     margin-left: auto;
     margin-right: auto;
-    margin-top:90px;
+    margin-top: 90px;
     filter: brightness(0) saturate(100%) invert(90%) sepia(6%) saturate(7454%) hue-rotate(185deg) brightness(105%) contrast(92%);
-    
+
 }
 
+@media (max-width:600px) {
+    .flex-container {
+        justify-content: center;
+    }
+
+
+    .container {
+        padding-left: 0% !important;
+    }
+
+    .headnav {
+        padding-left: 6%;
+    }
+}

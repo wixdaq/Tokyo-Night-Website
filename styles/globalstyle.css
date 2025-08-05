@@ -12,6 +12,7 @@
 
 
 .headnav {
+    display: flex;
     width: 100%;
     height: 4em;
     font-family: fira code;
@@ -126,5 +127,9 @@ body {
 
     .container {
         padding-left:5% !important;
+    }
+
+    .headnav {
+        text-align: center;
     }
 }

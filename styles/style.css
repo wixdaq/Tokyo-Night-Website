@@ -8,21 +8,22 @@
     --color-h1: #f7768e;
     --color-h2: #9ece6a;
     --color-tr-1: #41486880;
-    --color-tr-2:#1a1b2680;
+    --color-tr-2: #1a1b2680;
     --color-background-lighter: #24283b;
     --color-button-theme: #f76e8e;
     --color-button-palette: #7aa2f7;
     --color-button-contact: #9ece6a;
 
 }
+
 .flex-container {
     display: flex;
 }
 
 .content {
     flex-direction: row;
-    padding-top:100px;   
-    width:800px;
+    padding-top: 100px;
+    width: 800px;
 }
 
 h1 {
@@ -39,19 +40,19 @@ h1 {
     font-size: 1.45em;
     font-family: inter;
     width: 600px;
-    padding-left:10px;
+    padding-left: 10px;
     border-left: 5px var(--color-h1) solid;
 }
 
 
 .theme {
-    background-color:var(--color-button-theme);
-    border-color:var(--color-button-theme);
+    background-color: var(--color-button-theme);
+    border-color: var(--color-button-theme);
 }
 
 .palette {
-    background-color:var(--color-button-palette);
-    border-color:var(--color-button-palette);
+    background-color: var(--color-button-palette);
+    border-color: var(--color-button-palette);
 }
 
 .contact {
@@ -63,17 +64,20 @@ button {
     border-radius: 10px;
     padding: 10px;
     font-size: 30px;
-    border:none;
+    border: none;
     margin-right: 10px;
+    width: 130px;
+    height: 60px;
 }
 
 .buttons {
     margin-top: 50px;
+    display: flex;
 }
 
 .buttons a {
     text-decoration: none;
-    color:#1a1b26;
+    color: #1a1b26;
     font-weight: 600;
     font-family: inter;
 
@@ -340,23 +344,58 @@ button {
     flex-direction: column;
     margin-bottom: auto;
     font-family: Fira code;
-    font-size:0.95em;
+    font-size: 0.95em;
 }
 
 
 
 .color-content {
     display: flex;
-    margin-top: 100px;
+    /* margin-top: 100px;
     margin-left: 200px;
-    padding-right:100px;
+    margin-right: 100px; */
+    width: 800px;
+    height: 600px;
+    flex-wrap: wrap;
+    flex-direction:column;
+    gap:10px;
+    padding-bottom:10px;
+    justify-content:end;
+    background-color: #2aa2f7;
 }
 
 .color-row {
     flex-direction: row;
     display: flex;
-    gap:10px;
+    gap: 10px;
     padding-bottom: 10px;
 }
 
+@media (max-width:600px) {
+    .content {
+        flex-direction: column;
+        width: 300px;
+    }
 
+    .info {
+        width: 300px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .color-content {
+        width: 300px;
+        height: 700px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+}
