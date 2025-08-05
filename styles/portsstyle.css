@@ -126,10 +126,10 @@ p a:hover {
 @media (max-width:600px)
 {
     .port-grid {
-        justify-content:center;
+        justify-content:left;
     }
 
-    h1, p, .theme-name {
+    h1 {
         text-align: center;
     }
 
