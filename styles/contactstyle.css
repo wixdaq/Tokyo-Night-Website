@@ -16,7 +16,8 @@
     gap: 20px;
     background-color: aquamarines;
     flex-wrap: wrap;
-    margin-top: 90px;
+    margin-top: 150px;
+    justify-content:center;
 }
 
 .contact-card {
