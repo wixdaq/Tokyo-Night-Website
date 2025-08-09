@@ -14,6 +14,7 @@
     flex-direction: row;
     margin: 0 auto;
     gap: 20px;
+    margin-bottom: 50px;
     background-color: aquamarines;
     flex-wrap: wrap;
     margin-top: 150px;
@@ -68,6 +69,7 @@ img {
 @media (max-width:600px) {
     .flex-container {
         justify-content: center;
+        margin-top: 75px;
     }
 
 

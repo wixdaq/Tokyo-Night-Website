@@ -106,7 +106,8 @@ body {
 
 .container {
     max-width: 1440px;
-    padding-left: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     flex-grow: 1;
     padding-bottom: 20px;
 }
@@ -127,6 +128,7 @@ body {
 
     .container {
         padding-left:5% !important;
+        padding-right:0% !important;
     }
 
     .headnav {

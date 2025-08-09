@@ -49,16 +49,19 @@ h1 {
 .theme {
     background-color: var(--color-button-theme);
     border-color: var(--color-button-theme);
+    width: 90px;
 }
 
 .palette {
     background-color: var(--color-button-palette);
     border-color: var(--color-button-palette);
+    width: 120px;
 }
 
 .contact {
     background-color: var(--color-button-contact);
     border-color: var(--color-button-contact);
+    width: 130px;
 }
 
 button {
@@ -66,7 +69,6 @@ button {
     font-size: 30px;
     border: none;
     margin-right: 20px;
-    width: 130px;
     height: 60px;
 }
 
@@ -113,16 +115,17 @@ button {
 
 .color-content {
     display: flex;
-    margin-top: 100px;
+    margin-top: 55px;
     padding-right: 200px;
-    width: 500px;
-    height: 600px;
+    width: 600px;
+    height: 360px;
     flex-wrap: wrap;
     flex-direction:column;
     gap:5px;
     padding-bottom:10px;
     justify-content:end;
     background-color:aquas;
+    margin-bottom: 55px;
 }
 
 .color-row {
@@ -164,6 +167,9 @@ button {
     .color-content {
         width: 300px;
         height: 700px;
+        flex-direction: column;
+        justify-content: end;
+        margin-bottom: 50px;
     }
 
     .flex-container {
@@ -174,15 +180,28 @@ button {
 @media (min-width:1440px) 
 {
     .color-content{
-        width: 1200px;
+        width:fit-content;
         height: 550px;
         background-color: aquas;
         margin-left: 100px;
-        margin-top: 50px;
+        margin-top: 70px;
         padding-right: 100px;
+        justify-content: end;
     }
 
     .flex-container {
         flex-direction: row;
+    }
+
+    .color {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media (max-width:800px)
+{
+    .color-content {
+         height: 500px;
     }
 }
