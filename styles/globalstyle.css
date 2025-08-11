@@ -51,7 +51,7 @@ footer {
     width: 100%;
     background-color: greens;
     margin-top:0 auto;
-    padding-left: 15%;
+    padding-left: 9.5%;
     border-top: 1px solid var(--color-nav-list);
 }
 
@@ -130,8 +130,10 @@ body {
         padding-left:5% !important;
         padding-right:0% !important;
     }
+}
 
-    .headnav {
-        text-align: center;
+@media (max-width:400px) {
+    .redirects a {
+        font-size: 17.5px;
     }
 }

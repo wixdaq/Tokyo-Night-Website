@@ -13,13 +13,13 @@
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    gap: 20px;
+    gap: 40px;
     margin-bottom: 50px;
-    background-color: aquamarines;
     flex-wrap: wrap;
     margin-top: 150px;
-    justify-content:center;
+    justify-content:left;
 }
+
 
 .contact-card {
     display: flex;

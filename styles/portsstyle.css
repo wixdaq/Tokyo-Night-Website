@@ -67,7 +67,7 @@ p a:hover {
     column-gap: 20px;
     justify-content: left;
     flex-wrap: wrap;
-    width: 100%;
+    width:100%;
     font-family: inter;
     margin-bottom: 10%;
 }
@@ -127,10 +127,6 @@ p a:hover {
 {
     .port-grid {
         justify-content:left;
-    }
-
-    h1 {
-        text-align: center;
     }
 
     .port {
