@@ -201,7 +201,7 @@ button {
         width: 300px;
         height: 700px;
         flex-direction: column;
-        justify-content: end;
+        justify-content: start;
         margin-bottom: 50px;
     }
 

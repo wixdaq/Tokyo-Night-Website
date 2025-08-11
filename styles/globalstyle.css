@@ -105,7 +105,6 @@ body {
 }
 
 .container {
-    max-width: 1440px;
     padding-left: 10%;
     padding-right: 10%;
     flex-grow: 1;
@@ -120,11 +119,14 @@ body {
     }
     .link-list {
         text-align: center;
+        padding-bottom: 15px;
     }
+    
 
     .redirects a {
         margin-right: 1%;
     }
+    
 
     .container {
         padding-left:5% !important;
@@ -132,8 +134,18 @@ body {
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:375px) {
     .redirects a {
         font-size: 17.5px;
+    }
+}
+
+@media (min-width:1920px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .body {
+        min-height: auto;
     }
 }
