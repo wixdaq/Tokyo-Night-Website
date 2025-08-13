@@ -64,17 +64,20 @@ h1 {
     width: 130px;
 }
 
-button {
+.button {
     border-radius: 10px;
     font-size: 30px;
     border: none;
-    margin-right: 20px;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .buttons {
     margin-top: 50px;
     display: flex;
+    gap:20px;
 }
 
 .buttons a {
@@ -82,7 +85,7 @@ button {
     color: #1a1b26;
     font-weight: 600;
     font-family: inter;
-
+    text-align: center;
 }
 
 .infolink {

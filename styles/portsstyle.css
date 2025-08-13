@@ -134,10 +134,16 @@ p a:hover {
         font-size: 75%;
     }
 
+    .port:hover {
+        transform:none;
+    }
+
     .port-name {
         padding:1%;
         padding-top:2%;
     }
 }    
+
+
 
 
