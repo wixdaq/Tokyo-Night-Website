@@ -50,7 +50,7 @@ p {
 }
 
 a {
-   color: #7dcfff;
+   color:var(--color-link);
    text-decoration: none;
 }
 
